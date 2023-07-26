@@ -1,0 +1,11 @@
+/Users/pvarga/Projects/iDashNet/iDashNet/bin/Release/netcoreapp1.1/wwwroot/images/iDashImg.png
+/Users/pvarga/Projects/iDashNet/iDashNet/bin/Release/netcoreapp1.1/iDashNet.deps.json
+/Users/pvarga/Projects/iDashNet/iDashNet/bin/Release/netcoreapp1.1/iDashNet.runtimeconfig.json
+/Users/pvarga/Projects/iDashNet/iDashNet/bin/Release/netcoreapp1.1/iDashNet.runtimeconfig.dev.json
+/Users/pvarga/Projects/iDashNet/iDashNet/bin/Release/netcoreapp1.1/iDashNet.dll
+/Users/pvarga/Projects/iDashNet/iDashNet/bin/Release/netcoreapp1.1/iDashNet.pdb
+/Users/pvarga/Projects/iDashNet/iDashNet/obj/Release/netcoreapp1.1/iDashNet.csprojResolveAssemblyReference.cache
+/Users/pvarga/Projects/iDashNet/iDashNet/obj/Release/netcoreapp1.1/iDashNet.csproj.CoreCompileInputs.cache
+/Users/pvarga/Projects/iDashNet/iDashNet/obj/Release/netcoreapp1.1/iDashNet.AssemblyInfo.cs
+/Users/pvarga/Projects/iDashNet/iDashNet/obj/Release/netcoreapp1.1/iDashNet.dll
+/Users/pvarga/Projects/iDashNet/iDashNet/obj/Release/netcoreapp1.1/iDashNet.pdb

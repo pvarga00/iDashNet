@@ -1,0 +1,122 @@
+
+@{
+    ViewData["Title"] = "FAQ";
+}
+
+<h2>FAQ</h2>
+
+
+<h3>POC Metrics Defined + Explained:</h3>
+
+<p> You can find the original source information for these metrics and their definitions here:
+	<a href="https://confluence/pages/viewpage.action?pageId=55395022">iDashboard Metrics to Measure + Track</a></br>
+    <br>
+	To learn more about this project, check out the details here: <a href="http://shorty/iDash">http://shorty/iDash</a></br>
+</p>
+<br><br>
+
+<p>
+    <b>Application Name :</b> The name of the application or system
+</p>
+<br>
+<p>
+    <b>Application Availability / Uptime (seconds) :</b> The percentage of time that a system is available and usable by clients. [No client impact / application is functioning as expected]<br />
+     <div style="margin-left:30px">
+	    <b>Why this is important to QL:</b> Availability is usually expressed as a percentage of uptime in a given year. This is measured in "9s" (see <a href="https://en.wikipedia.org/wiki/High_availability">"High Availability"</a> in Wikipedia). <br /><br />
+     </div>
+</p>
+
+
+<br />
+    <p>
+        <b>Tech Debt (time) :</b>The estimated time it will take to resolve (fix) - all the issues in the application's code (identified by: design decisions, deferred work, static/dynamic analysis tools, etc.)
+        Each issue is assigned an estimated time to resolve, (in minutes). The total time for all of the issues are added up, and then reported as the "Technical Debt" for an application<br />
+         <div style="margin-left:30px">
+		    <b>Why this is important to QL:</b> These issues are identified problems in our application code. By resolving the known problems in our code, we will have more stable, higher quality applications -- leading to less downtime, safer data, more security, and more business efficiency<br /><br />
+        </div>
+		</p>
+
+<br />
+    <p>
+        <b>Test Coverage (%) :</b> Percentage of the source code has been covered by various tests<br /><br />
+        <div style="margin-left:30px">
+            <b>Unit Test (Code) Coverage (%) :</b> Percentage of the source code has been covered by unit tests (based on lines of code). Unit tests are code, that functionally tests application code<br /><br />
+            <b>Integration Coverage (%) :</b>  Percentage of the application integrations that have been covered by tests. Integrations are any connections and messages transferring between boundaries, from one thing to another. Examples are between classes, internal modules, API endpoints, other applications, vendor applications, etc.<br /><br />
+            <b>Functional Coverage (%) :</b> Percentage of the application's features that have been covered by tests (based on functional "areas" or requirements of the application)<br /><br />
+            <b>Why this is important to QL:</b> The higher the Test Coverage, the more confidently we can release our software, with less fear that any new changes will inadvertently cause unintended failures<br /><br />
+        </div>
+    </p>
+
+<br />
+    <p>
+        <b>Test Status :</b> Summary of all test runs: unit, integration, and functional. Based on the total number of tests, the total number of failing tests, and the percentage of passing tests<br /><br />
+        <div style="margin-left:30px">
+            <b>Unit Tests (Total Number of Tests / Number of Failures / Test Pass %) : </b>The total number of unit tests for an application, total number of unit test failures, including the overall test run passing percentage<br /><br />
+            <b>Integration Tests (Total Number of Tests / Number of Failures / Test Pass %) :</b> The total number of integration tests for an application, total number of failures, including the overall test run passing percentage<br /><br />
+            <b>Functional Tests (Total Number of Tests / Number of Failures / Test Pass %) :</b> The total number of functional tests for an application, total number of failures, including the overall test run passing percentage<br /><br />
+               Note: Generally we want to increase the total number of tests, decrease the number of failing tests, and increase the test passing percentage<br /><br />
+            <b>Why this is important to QL: </b>Our tests are critical to ensuring that the application code is working as expected. These tests also ensure that any changes to the code, do not cause unintended consequences<br /><br />
+        </div>
+
+
+        <table class="bordered" style="border:solid 2px #F0F0F0;">
+            <tr style="background-color:#F0F0F0">
+                <th>
+                    Automated Test Types
+                </th>
+
+                <th>
+                    Coverage
+                </th>
+                <th>
+                    Total # Tests
+                </th>
+                <th>
+                   Failing Tests #
+                </th>
+                <th>
+                    Test Pass %
+                </th>
+            </tr>
+            <tr>
+                <td>Unit</td>
+                <td>90%</td>
+                <td>24</td>
+                <td>24</td>
+                <td>96%</td>
+            </tr>
+
+            <tr>
+                <td>Integration</td>
+                <td>20%</td>
+                <td>121</td>
+                <td>125</td>
+                <td>97%</td>
+            </tr>
+
+            <tr>
+                <td>Functional</td>
+                <td>50%</td>
+                <td>75</td>
+                <td>100</td>
+                <td>75%</td>
+            </tr>
+
+        </table><br />
+    </p>
+
+<br />
+    <p>
+        <b>Current Change Related Incidents :</b> This metric tracks the current number of problems associated with any new changes to an application<br />
+         <div style="margin-left:30px">
+			<b>Why this is important to QL:</b> If an application is currently experiencing a "change related incident", (and the historical tracking of this number over a time period, ie. a "sprint cycle"), allows teams to focus on and reduce the amount of change related incidents, leading towards continuous improvement, and increased uptime/availability<br /><br />
+         </div>
+	</p>
+
+<br />
+    <p>
+        <b>Known Bugs/Issues :</b>  These are the known bugs, issues, and/or defects in the application software, identified in any environment<br />
+         <div style="margin-left:30px">
+				<b>Why this is important to QL:</b> By resolving the known problems in our applications, we will have more stable, higher quality applications -- leading to less downtime, safer data, more security, and more business efficiency<br />
+	     </div>
+    </p>

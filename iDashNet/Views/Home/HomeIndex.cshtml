@@ -1,0 +1,77 @@
+﻿@model iDashNet.Models.HomeModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<br><br>
+
+<!-- Materialize Design Library: http://materializecss.com/ -->
+<div class="flex-container" style="margin-top:20px;">
+
+
+
+    @foreach (HomePageApp app in Model.homePageApps)
+    {
+
+        <div class="card-container" style="margin-top:20px;">
+            <div class="card">
+                <div class="card-content white-text">
+                    <span class="card-title">@app.Name</span>
+                    <p>
+                        <b>Availability</b>: N/A
+                    </p>
+
+                    <p>
+                        <b>Tech Debt (h)</b>: @app.sonar_techDebt
+                    </p>
+				    <p>
+                        <b>Code Coverage (%)</b>: @app.sonar_coverage
+                    </p>
+				    <p>
+                        <b>Integration Coverage (%)</b>: N/A
+                    </p>
+
+                    <p>
+                        <b>Functional Coverage (%)</b>: @app.app_functional_coverage
+                    </p>
+
+                    <p>
+                        <b>Change Related Incidents</b>: N/A
+                    </p>
+
+                    <p>
+                        <b>Known Bugs/Issues</b>: @app.bugs
+                    </p>
+				<p>
+					<br>
+					<b> Test Status: </b> <br>
+					        <b>&nbsp Unit Tests: </b><br>
+					        <p>
+					            &nbsp &nbsp - Total Number of Tests: @app.sonar_totalTests <br>
+                                &nbsp &nbsp - Number of Failing Tests: @app.sonar_failingUTs <br>
+					            &nbsp &nbsp - Test Pass %: @app.sonar_percPass <br>
+					        </p>
+					        <br>
+				            <p>
+					        <b>&nbsp Integration Tests: </b><br>
+                                &nbsp &nbsp - Total Number of Tests: N/A <br>
+                                &nbsp &nbsp - Number of Failing Tests: N/A <br>
+                                &nbsp &nbsp - Test Pass %: N/A <br>
+                            </p>
+                            <br>
+					        <p>
+					        <b>&nbsp Functional Tests: </b><br>
+                                &nbsp &nbsp - Total Number of Tests: N/A <br>
+                                &nbsp &nbsp - Number of Failing Tests: N/A <br>
+                                &nbsp &nbsp - Test Pass %: N/A <br>
+                            </p> <br>
+
+                </div>
+                @*<div class="card-action">
+                    </div>*@
+            </div>
+        </div>
+
+    }
+</div>

@@ -1,0 +1,63 @@
+﻿<Properties StartupConfiguration="{83387791-AB49-4BB6-BD6E-CCE1C874A8FC}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.ItemProperties.iDashNet PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="iDashNet/Controllers/GAnalyticsController.cs">
+    <Files>
+      <File FileName="iDashNet/Controllers/TestStatsController.cs" Line="35" Column="15" />
+      <File FileName="iDashNet/Controllers/HomeController.cs" Line="106" Column="58" />
+      <File FileName="iDashNet/Controllers/SonarQubeController.cs" Line="23" Column="28" />
+      <File FileName="iDashNet/Controllers/AvailabilityController.cs" Line="32" Column="42" />
+      <File FileName="iDashNet/Controllers/CherwellController.cs" Line="1" Column="1" />
+      <File FileName="iDashNet/AppSettings.cs" Line="1" Column="1" />
+      <File FileName="iDashNet/Models/HomeModel.cs" Line="33" Column="39" />
+      <File FileName="iDashNet/Views/Home/HomeIndex.cshtml" Line="15" Column="6" />
+      <File FileName="iDashNet/Models/GAnalyticsModel.cs" Line="1" Column="1" />
+      <File FileName="iDashNet/Models/iDashContext.cs" Line="1" Column="1" />
+      <File FileName="iDashNet/Controllers/FAQController.cs" Line="1" Column="1" />
+      <File FileName="iDashNet/Views/FAQ/FAQ.cshtml" Line="104" Column="1" />
+      <File FileName="iDashNet/Views/Home/About.cshtml" Line="17" Column="7" />
+      <File FileName="iDashNet/Views/Home/Contact.cshtml" Line="1" Column="1" />
+      <File FileName="iDashNet/Views/_ViewStart.cshtml" Line="6" Column="1" />
+      <File FileName="iDashNet/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
+      <File FileName="iDashNet/Views/Availability/AvailabilityIndex.cshtml" Line="35" Column="44" />
+      <File FileName="iDashNet/Controllers/GAnalyticsController.cs" Line="96" Column="1" />
+      <File FileName="iDashNet/Controllers/ZabbixController.cs" Line="29" Column="1" />
+      <File FileName="iDashNet/Controllers/DCRUMController.cs" Line="45" Column="61" />
+      <File FileName="iDashNet/Controllers/AppDataController.cs" Line="1" Column="1" />
+      <File FileName="iDashNet/Controllers/AppDynamicsController.cs" Line="132" Column="1" />
+      <File FileName="iDashNet/Controllers/ChartController.cs" Line="1" Column="1" />
+      <File FileName="iDashNet/Controllers/TFSController.cs" Line="1" Column="1" />
+      <File FileName="iDashNet/Models/CherwellModel.cs" Line="1" Column="1" />
+      <File FileName="iDashNet/Views/AppDynamics/AppDynamicsIndex.cshtml" Line="4" Column="40" />
+      <File FileName="iDashNet/Views/_ViewImports.cshtml" Line="1" Column="1" />
+      <File FileName="iDashNet/Views/SonarQube/SonarQubeIndex.cshtml" Line="42" Column="6" />
+      <File FileName="iDashNet/Program.cs" Line="24" Column="2" />
+      <File FileName="iDashNet/Models/SonarQubeModel.cs" Line="28" Column="36" />
+      <File FileName="iDashNet/iDashNet.csproj" Line="1" Column="1" />
+      <File FileName="iDashNet/Startup.cs" Line="41" Column="14" />
+      <File FileName="iDashNet/Controllers/AvailabilityHelper.cs" Line="29" Column="1" />
+      <File FileName="iDashNet/appsettings.json" Line="10" Column="20" />
+      <File FileName="iDashNet/Models/AvailabilityModel.cs" Line="19" Column="65" />
+      <File FileName="iDashNet/Models/AppDynamicsModel.cs" Line="20" Column="38" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint enabled="false" file="/Users/pvarga/projects/iDashNet/iDashNet/Controllers/HellowWorldController.cs" relfile="iDashNet/Controllers/HellowWorldController.cs" line="34" column="17" />
+      <Breakpoint enabled="false" file="/Users/pvarga/projects/iDashNet/iDashNet/Controllers/HellowWorldController.cs" relfile="iDashNet/Controllers/HellowWorldController.cs" line="38" column="26" />
+      <Breakpoint enabled="false" file="/Users/pvarga/projects/iDashNet/iDashNet/Controllers/HellowWorldController.cs" relfile="iDashNet/Controllers/HellowWorldController.cs" line="36" column="18" />
+      <Breakpoint enabled="false" file="/Users/pvarga/projects/iDashNet/iDashNet/Controllers/SonarQubeController.cs" relfile="iDashNet/Controllers/SonarQubeController.cs" line="79" column="1" />
+      <Breakpoint enabled="false" file="/Users/pvarga/projects/iDashNet/iDashNet/Controllers/GAnalyticsController.cs" relfile="iDashNet/Controllers/GAnalyticsController.cs" line="72" column="1" />
+      <Breakpoint enabled="false" file="/Users/pvarga/projects/iDashNet/iDashNet/Controllers/GAnalyticsController.cs" relfile="iDashNet/Controllers/GAnalyticsController.cs" line="82" column="21" />
+      <Breakpoint file="/Users/pvarga/projects/iDashNet/iDashNet/Controllers/HomeController.cs" relfile="iDashNet/Controllers/HomeController.cs" line="172" column="1" />
+      <Breakpoint file="/Users/pvarga/projects/iDashNet/iDashNet/Controllers/AvailabilityHelper.cs" relfile="iDashNet/Controllers/AvailabilityHelper.cs" line="277" column="19" />
+      <Breakpoint file="/Users/pvarga/projects/iDashNet/iDashNet/Controllers/AvailabilityHelper.cs" relfile="iDashNet/Controllers/AvailabilityHelper.cs" line="288" column="18" />
+      <Breakpoint file="/Users/pvarga/projects/iDashNet/iDashNet/Controllers/CherwellController.cs" relfile="iDashNet/Controllers/CherwellController.cs" line="56" column="1" />
+      <Breakpoint file="/Users/pvarga/projects/iDashNet/iDashNet/Controllers/CherwellController.cs" relfile="iDashNet/Controllers/CherwellController.cs" line="94" column="1" />
+      <Breakpoint file="/Users/pvarga/projects/iDashNet/iDashNet/Controllers/CherwellController.cs" relfile="iDashNet/Controllers/CherwellController.cs" line="42" column="15" />
+      <Breakpoint file="/Users/pvarga/projects/iDashNet/iDashNet/Controllers/CherwellController.cs" relfile="iDashNet/Controllers/CherwellController.cs" line="78" column="24" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

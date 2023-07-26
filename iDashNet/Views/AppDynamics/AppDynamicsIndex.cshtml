@@ -1,0 +1,29 @@
+﻿@model iDashNet.Models.AppDynamicsModel
+
+@{
+    ViewData["Title"] = "App Dynamics";
+}
+
+<!-- Materialize Design Library: http://materializecss.com/ -->
+<div class="flex-container" style="margin-top:20px;">
+@foreach (AppDynamicsApp app in Model.appdApps)
+{
+    <div class="card-container" style="margin-top:20px;">
+       
+            <div class="card">
+                <div class="card-content white-text">
+                    <span class="card-title">@app.Name</span>
+                    <p>
+                        <b>Average Response Time</b>: @app.AvgResponseTime
+
+                    </p>
+
+
+                </div>
+
+            </div>
+        </div>
+
+}
+
+</div>

@@ -1,0 +1,52 @@
+﻿
+
+@model iDashNet.Models.AvailabilityModel
+
+@{
+    ViewData["Title"] = "Availability";
+}
+
+
+    <table class="bordered" style="border:solid 2px #F0F0F0;">
+    <tr style="background-color:#F0F0F0">
+        <th>
+            Status Key
+        </th>
+
+		<td>Functionally Available<div style='border-radius:100%;background-color:green;height:30px;width:30px'></div></td>
+		<td>Not Available<div style='border-radius:100%;background-color:red;height:30px;width:30px'></div></td>
+		<td>Not Implemented<div style='border-radius:100%;background-color:grey;height:30px;width:30px'></div></td>
+	</tr>
+    </table>
+
+<h3>API Status / Health Checks</h3>
+<p>This table shows whether an endpoint API is working as expected, or not.</p>
+    <table class="browserref notranslate">
+        <tr>
+            <th style="width:20%;font-size:16px;text-align:left;">App Availability</th>
+		    <th style="width:20%;font-size:16px;text-align:left;">BETA</th>
+            <th style="width:20%;font-size:16px;text-align:left;">PROD</th>
+
+            <div>
+		    @foreach(iDashNet.AvailabilityApps app in Model.AvailApps){
+                @Html.Raw("<tr> <td>")
+		        @app.Name
+		        @Html.Raw("</td>")
+                if(app.AppStatus == System.Net.HttpStatusCode.OK) 
+                {
+                    @Html.Raw("<td><div style='border-radius:100%;background-color:green;height:30px;width:30px'></div></td>")
+			        
+                }
+			    else if(app.AppStatus != System.Net.HttpStatusCode.OK){
+			        @Html.Raw("<td><div style='border-radius:100%;background-color:red;height:30px;width:30px'></div></td>")
+			    }
+                else
+                {
+                    @Html.Raw("<td><div style='border-radius:100%;background-color:grey;height:30px;width:30px'></div></td>")
+                }
+		        @Html.Raw("</tr>")
+		    }
+			</div>
+ 
+        </tr>
+   

@@ -1,0 +1,15 @@
+/Users/pvarga/projects/iDashNet/Tests/bin/Debug/NUnit3.TestAdapter.dll
+/Users/pvarga/projects/iDashNet/Tests/bin/Debug/nunit.engine.dll
+/Users/pvarga/projects/iDashNet/Tests/bin/Debug/nunit.engine.api.dll
+/Users/pvarga/projects/iDashNet/Tests/bin/Debug/Mono.Cecil.dll
+/Users/pvarga/projects/iDashNet/Tests/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/pvarga/projects/iDashNet/Tests/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/pvarga/projects/iDashNet/Tests/bin/Debug/Mono.Cecil.Rocks.dll
+/Users/pvarga/projects/iDashNet/Tests/bin/Debug/Tests.dll
+/Users/pvarga/projects/iDashNet/Tests/bin/Debug/Tests.pdb
+/Users/pvarga/projects/iDashNet/Tests/bin/Debug/nunit.framework.dll
+/Users/pvarga/projects/iDashNet/Tests/bin/Debug/nunit.framework.xml
+/Users/pvarga/projects/iDashNet/Tests/obj/Debug/Tests.csprojResolveAssemblyReference.cache
+/Users/pvarga/projects/iDashNet/Tests/obj/Debug/Tests.csproj.CoreCompileInputs.cache
+/Users/pvarga/projects/iDashNet/Tests/obj/Debug/Tests.dll
+/Users/pvarga/projects/iDashNet/Tests/obj/Debug/Tests.pdb
